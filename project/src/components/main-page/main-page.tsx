@@ -11,7 +11,7 @@ function MainPage():JSX.Element {
       <div className="burger bread upper-bread"></div>
       <section className="burger-filling-place">
         {
-          ingridients.map((ingredient) => <Ingredient ingredient={ingredient} key={ingredient}/>)
+          ingridients.map((ingredient) => <Ingredient ingredient={ingredient.name} key={ingredient.name}/>)
         }
       </section>
       <div className="burger bread lower-bread"></div>
@@ -20,7 +20,7 @@ function MainPage():JSX.Element {
         <h2 className="total-price">{`Total price: ${tempPrice}rub`}</h2>
         <section className = "buttons">
           {
-            ingridients.map((ingredient) => <ManageElement ingredient={ingredient} key={ingredient}/>)
+            ingridients.map((ingredient) => <ManageElement ingredient={ingredient} key={ingredient.name}/>)
           }
         </section>
       </section>
