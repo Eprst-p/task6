@@ -3,4 +3,11 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  font-size: 1.2em;
 }
+
+.title {
+  font-size: 200%;
+  font-weight: 600;
+}
+

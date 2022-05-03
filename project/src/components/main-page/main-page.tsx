@@ -1,31 +1,18 @@
-import { ingridients } from '../../settings/ingridients';
-import Ingredient from '../ingredient/ingredient';
-import ManageElement from '../manage-element/manage-element';
+import ManageInterface from '../manage-interface/manage-interface';
+import BurgerInside from '../burger-inside/burger-inside';
+import { memo } from 'react';
 
 function MainPage():JSX.Element {
-  const tempPrice = 100;
 
   return (
     <main className="container">
       <h1 className="tittle">Burger builder</h1>
-      <div className="upper-bread">bread</div>
-      <section className="burger-filling-place">
-        {
-          ingridients.map((ingredient) => <Ingredient ingredient={ingredient} key={ingredient}/>)
-        }
-      </section>
-      <div className="lower-bread">bread</div>
-
-      <section className="user-interface">
-        <h2 className="total-price">{`Total price: ${tempPrice}rub`}</h2>
-        <section className = "buttons">
-          {
-            ingridients.map((ingredient) => <ManageElement ingredient={ingredient} key={ingredient}/>)
-          }
-        </section>
-      </section>
+      <div className="burger bread upper-bread"></div>
+      <BurgerInside />
+      <div className="burger bread lower-bread"></div>
+      <ManageInterface />
     </main>
   );
 }
 
-export default MainPage;
+export default memo(MainPage);

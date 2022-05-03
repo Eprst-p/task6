@@ -1,0 +1,60 @@
+.burger-filling-place {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.burger {
+  width: 500px;
+  margin: 1px;
+  border: solid 1px black
+}
+
+.bread {
+  height: 90px;
+  background-image: url("../backgound-images/burger\ bun.jpg");
+}
+
+.upper-bread {
+  border-radius: 75px 75px 25px 25px;
+}
+
+.lower-bread {
+  border-radius: 25px 25px 75px 75px;
+}
+
+.ingredient {
+  height: 30px;
+  border-radius: 30px;
+}
+
+.salad {
+  background-image: url("../backgound-images/salad.jpg");
+}
+
+.cheese {
+  background-image: url("../backgound-images/cheese.jpg");
+}
+
+.meat {
+  background-image: url("../backgound-images/meat.jpg");
+}
+
+.cucumber {
+  background-image: url("../backgound-images/cucumber.jpg");
+}
+
+.tomato {
+  background-image: url("../backgound-images/tomato.jpg");
+}
+
+.onion {
+  background-image: url("../backgound-images/onion.jpg");
+}
+
+.empty-message {
+  width: 500px;
+  height: 50px;
+  font-size: 18px;
+}

@@ -1,0 +1,61 @@
+.manage-interface {
+  background-color: tan;
+  margin: 150px 75px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 40px;
+  font-weight: 600;
+}
+
+.total-price {
+  font-size: 25px;
+  width: 500px;
+}
+
+.total-price .price {
+  color:rgba(0, 16, 235, 0.712);
+  margin-left: 110px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+}
+
+.manage-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 450px;
+}
+
+.manage-name {
+  width: 100px;
+}
+
+.manage-price {
+  width: 20px;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20%;
+}
+
+.remove-button {
+  background-color: orangered;
+}
+
+.add-button {
+  background-color: rgb(27, 235, 0);
+}
