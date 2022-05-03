@@ -16,9 +16,11 @@ export const burgerProcess = createSlice({
       state.totalPrice += payload.price;
     },
     removeIngredient: (state, {payload}) => {
-      const indexOfRemoved = state.currentIngredients.findIndex((value) => value === payload.name);
-      state.currentIngredients = state.currentIngredients.splice(indexOfRemoved, 1);
-      state.totalPrice -= payload.price;
+      if (state.currentIngredients.includes(payload.name)) {
+        const indexOfRemoved = state.currentIngredients.findIndex((value) => value === payload.name);
+        state.currentIngredients.splice(indexOfRemoved, 1);
+        state.totalPrice -= payload.price;
+      }
     },
   },
 });
