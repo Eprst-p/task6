@@ -4,7 +4,7 @@ type IngredientType = {
 
 function Ingredient({ingredient}: IngredientType):JSX.Element {
   return (
-    <div className={`burger ingredient ${ingredient.toLowerCase()}`}>{ingredient}</div>
+    <div className={`burger ingredient ${ingredient.toLowerCase()}`}></div>
   );
 }
 

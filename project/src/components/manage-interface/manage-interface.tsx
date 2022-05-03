@@ -18,4 +18,4 @@ function ManageInterface():JSX.Element {
   );
 }
 
-export default memo(ManageInterface) ;
+export default memo(ManageInterface);

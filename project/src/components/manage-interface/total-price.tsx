@@ -6,7 +6,10 @@ function TotalPrice():JSX.Element {
   const totalPrice = useAppSelector(getTotalPrice);
 
   return (
-    <h2 className="total-price">{`Total price: ${totalPrice} rub`}</h2>
+    <h2 className="total-price">
+      Total price:
+      <span className="price">{`${totalPrice} rub`}</span>
+    </h2>
   );
 }
 

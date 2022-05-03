@@ -16,7 +16,7 @@ export const ingridients = [
     price: 5,
   },
   {
-    name: 'Potato',
+    name: 'Tomato',
     price: 7,
   },
   {

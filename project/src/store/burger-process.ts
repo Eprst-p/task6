@@ -4,7 +4,7 @@ import { BurgerProcess } from '../types/state';
 
 const initialState: BurgerProcess = {
   currentIngredients: [],
-  totalPrice: 15,
+  totalPrice: 35,
 };
 
 export const burgerProcess = createSlice({

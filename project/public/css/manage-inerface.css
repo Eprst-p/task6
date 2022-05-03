@@ -7,10 +7,17 @@
   justify-content: space-around;
   align-items: center;
   border-radius: 40px;
+  font-weight: 600;
 }
 
 .total-price {
   font-size: 25px;
+  width: 500px;
+}
+
+.total-price .price {
+  color:rgba(0, 16, 235, 0.712);
+  margin-left: 110px;
 }
 
 .buttons {
@@ -26,16 +33,11 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 500px;
+  width: 450px;
 }
 
 .manage-name {
-  font-weight: 600;
   width: 100px;
-}
-
-.manage-price {
-  width: 120px;
 }
 
 .button {

@@ -7,12 +7,13 @@
 
 .burger {
   width: 500px;
-  margin: 5px;
+  margin: 1px;
+  border: solid 1px black
 }
 
 .bread {
   height: 90px;
-  background-color: peru;
+  background-image: url("../backgound-images/burger\ bun.jpg");
 }
 
 .upper-bread {
@@ -29,27 +30,27 @@
 }
 
 .salad {
-  background-color: chartreuse;
+  background-image: url("../backgound-images/salad.jpg");
 }
 
 .cheese {
-  background-color: #dcfc2a;
+  background-image: url("../backgound-images/cheese.jpg");
 }
 
 .meat {
-  background-color: #7c370a;
+  background-image: url("../backgound-images/meat.jpg");
 }
 
 .cucumber {
-  background-color: #127027;
+  background-image: url("../backgound-images/cucumber.jpg");
 }
 
-.potato {
-  background-color: #f30808b2;
+.tomato {
+  background-image: url("../backgound-images/tomato.jpg");
 }
 
 .onion {
-  background-color: #cadee0b2;
+  background-image: url("../backgound-images/onion.jpg");
 }
 
 .empty-message {
