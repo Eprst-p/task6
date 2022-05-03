@@ -1,0 +1,51 @@
+.burger {
+  width: 500px;
+  margin: 5px;
+}
+
+.bread {
+  height: 90px;
+  background-color: peru;
+}
+
+.upper-bread {
+  border-radius: 75px 75px 25px 25px;
+}
+
+.lower-bread {
+  border-radius: 25px 25px 75px 75px;
+}
+
+.ingredient {
+  height: 30px;
+  border-radius: 30px;
+}
+
+.salad {
+  background-color: chartreuse;
+}
+
+.cheese {
+  background-color: #dcfc2a;
+}
+
+.meat {
+  background-color: #7c370a;
+}
+
+.cucumber {
+  background-color: #127027;
+}
+
+.potato {
+  background-color: #f30808b2;
+}
+
+.onion {
+  background-color: #cadee0b2;
+}
+
+.empty-message {
+  width: 500px;
+  height: 120px;
+}

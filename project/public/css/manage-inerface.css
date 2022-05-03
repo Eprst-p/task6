@@ -1,0 +1,55 @@
+.user-interface {
+  background-color: tan;
+  margin: 150px 75px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 40px;
+}
+
+.total-price {
+  font-size: 25px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+}
+
+.manage-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+}
+
+.manage-name {
+  font-weight: 600;
+  width: 100px;
+}
+
+.manage-price {
+  width: 100px;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20%;
+}
+
+.remove-button {
+  background-color: orangered;
+}
+
+.add-button {
+  background-color: rgb(27, 235, 0);
+}

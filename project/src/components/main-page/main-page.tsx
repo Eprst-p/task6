@@ -8,13 +8,13 @@ function MainPage():JSX.Element {
   return (
     <main className="container">
       <h1 className="tittle">Burger builder</h1>
-      <div className="upper-bread">bread</div>
+      <div className="burger bread upper-bread"></div>
       <section className="burger-filling-place">
         {
           ingridients.map((ingredient) => <Ingredient ingredient={ingredient} key={ingredient}/>)
         }
       </section>
-      <div className="lower-bread">bread</div>
+      <div className="burger bread lower-bread"></div>
 
       <section className="user-interface">
         <h2 className="total-price">{`Total price: ${tempPrice}rub`}</h2>

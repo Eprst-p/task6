@@ -8,9 +8,9 @@ function ManageElement({ingredient}: ManageElementType):JSX.Element {
   return (
     <section className="manage-section">
       <span className="manage-name">{ingredient}</span>
-      <span className="manage-price">price: {Price[ingredient]}</span>
-      <button className="remove-button">Remove</button>
-      <button className="add-button">Add</button>
+      <button className="button remove-button">Remove</button>
+      <button className="button add-button">Add</button>
+      <span className="manage-price">{`  price:    ${Price[ingredient]}`}</span>
     </section>
   );
 }
