@@ -4,6 +4,8 @@ Cоздан с помощью [Create React App](https://github.com/facebook/cre
 
 ### Запуск проекта
 
+из директории /project
+
 ```bash
 npm start
 ```
