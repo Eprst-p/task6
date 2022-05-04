@@ -11,3 +11,7 @@
   font-weight: 600;
 }
 
+.attention-message {
+  font-size: 30px;
+  color:crimson;
+}
